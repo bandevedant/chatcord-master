@@ -1,7 +1,7 @@
 const express = require("express");
 const path = require("path");
 const http = require("http");
-const helmet=require("helmet")
+// const helmet=require("helmet")
 const socketio = require("socket.io");
 const messageBox = require("./utils/messages");
 const {
@@ -15,7 +15,7 @@ const server = http.createServer(app);
 
 require('dotenv').config();
 // Use Helmet to set various security headers
-app.use(helmet());
+// app.use(helmet());
 app.use(express.static(path.join(__dirname, "public")));
 
 const io = socketio(server);
