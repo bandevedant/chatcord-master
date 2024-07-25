@@ -1,7 +1,7 @@
 {
   "name": "chatcord-master",
   "version": "1.0.0",
-  "description": "",
+  "description": "It is group chat appilication made with socket.io where people with same room id can join together and chat.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -17,5 +17,6 @@
     "moment": "^2.29.4",
     "nodemon": "^3.1.4",
     "socket.io": "^4.6.1"
-  }
+  },
+  "devDependencies": {}
 }
